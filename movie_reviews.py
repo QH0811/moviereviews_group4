@@ -6,7 +6,7 @@ import os
 
 # Download NLTK resources if not already downloaded
 nltk.download('punkt')
-nltk.download('punkt_txt')
+nltk.download('punkt_tab')
 
 # Load the saved Naive Bayes classifier
 bayes_classifier = load('bayes_classifier.joblib')
